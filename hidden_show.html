@@ -1,0 +1,17 @@
+<html>
+<head><title>HTML sample hidden and show switch</title>
+<script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<input type="radio" name="sw" id="show">表示　<input type="radio" name="sw" id="hide">非表示
+<div id="switch_area">
+見えたり見えなかったりする場所
+</div>
+<script>
+$(function(){
+$('#show').click(function(event){$('#switch_area').show()});
+$('#hide').click(function(event){$('#switch_area').hide()});
+});
+</script>
+</body>
+</html>
